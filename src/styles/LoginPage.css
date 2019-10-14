@@ -1,0 +1,138 @@
+.login {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100vh;
+    background: #c6ffdd; 
+    background: -webkit-linear-gradient(to right, #c6ffdd, #fbd786, #f7797d); 
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+
+}
+
+.headerLogin {
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.headerLogin img {
+    height:120px;
+    width:120px;
+    padding:24px;
+}
+
+.formContainer{
+    display:flex;
+    flex:3;
+    flex-direction:column;
+    align-items:center;
+}
+
+.formContainer form {
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-end;
+}
+
+.textLogin {
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+}
+
+.textLogin h1{
+    font-size:40px;
+    margin:0;
+    font-family: 'Amatic SC', cursive;
+    font-weight:700;
+    font-size:64px;
+    color:black;
+}
+
+.rut {
+    flex:2;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.rut h4 {
+    font-weight:500;
+    margin:0;
+    color:black;
+}
+
+.rut input{
+    font-family: 'Barlow Condensed', sans-serif;
+    width:200px;
+    margin-top:8px;
+    background-color:rgba(255,255,255,0.4);
+    padding:8px;
+    border:none;
+    border-radius:32px;
+}
+
+.pass {
+    flex:2;
+    display:flex;
+    flex-direction:column;
+    color:black;
+}
+
+.pass h4 {
+    font-weight:500;
+    margin:0;
+}
+
+.pass input {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-sie:16px;
+    width:200px;
+    margin-top:8px;
+    background-color:rgba(255,255,255,0.4);
+    padding:8px;
+    border:none;
+    border-radius:32px;
+}
+
+.buttonsSesion {
+    flex:1;
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+    justify-content:space-between;
+    width:300px;
+}
+
+.buttonRecoverPass {
+    color:black ;
+    border-style:none;
+    border-width:0;
+    padding:8px;
+    text-decoration:underline;
+    background-color:transparent;
+}
+
+.buttonLogin {
+    font-size:16px;
+    border-radius:8px;
+    background-color:#fff79c;
+    padding:8px;
+    border:none;
+}
+
+.firmaContainer {
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    justify-content:flex-end;
+    padding-bottom:8px;
+    align-items:center;
+    color:black;
+    font-size:13px;
+}
