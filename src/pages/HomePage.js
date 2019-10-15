@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import '../styles/HomePage.css'
 import fondo from'../img/sfFondo.jpg'
+import logo from '../img/sfLogo.png'
 
 export default class HomePage extends Component {
 
@@ -13,39 +14,38 @@ export default class HomePage extends Component {
     
     render() {
         return (
-            <div className='home'>
+            <div className='menuAdmi'>
                 <div className='headerHomeAdmi'>
-                    <h1>Santa Feria</h1>
-                    <h3>ADMINISTRACION</h3>
-                </div>
-                <div className='menuAdm'>
-                    <div className='optionsHomeAdmi'>
+                    <div className='logoMenuAdmi'>
+                        <img src={logo}/>
+                    </div>
+                    
+                    <div className='optionsMenuAdmi'>
                         <div className='addUser'>
-                            <input 
-                                type='submite'
-                                value='Agregar usuario'
-                            />
+                            <button>Agregar usuario</button>
                         </div>
                         
                         <div className='listUsers'>
-                            <input 
-                                type='submite'
-                                value='Lista de usuarios'
-                            />
+                            <button>Lista de usuarios</button>
                         </div>
 
                         <div className='reports'>
-                            <input 
-                                type='submit'
-                                value='Gestion de reportes'
-                            />
+                            <button>Gestion de reportes</button>
                         </div>
                     </div>
 
-                    <div className='windows'>
+                    <div className='perfilMenuAdmi'>
 
                     </div>
 
+                </div>
+
+                <div className='windowAdmi'>
+                    <h6>agregar ventana</h6>
+                </div>
+
+                <div className='pieMenuAdmi'>
+                    <h7>aaaaaaaaaaa</h7>
                 </div>
 
             </div>
