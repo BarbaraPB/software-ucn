@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import '../styles/HomePage.css'
-import fondo from'../img/sfFondo.jpg'
 import logo from '../img/sfLogo.png'
 
 export default class HomePage extends Component {
