@@ -1,0 +1,90 @@
+.inventoryBody{
+    background: #009fff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #009fff, #ec2f4b); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #009fff, #ec2f4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    height:100vh;
+
+}
+
+.inventoryTop{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /*background: rgb(255, 174, 0);*/
+}
+
+.inventoryMiddle{
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    /*background: rgb(255, 0, 0);*/
+    
+}
+    .inventoryMiddleSubColumn{
+        display: flex;
+        flex: 3;
+        flex-direction: column;
+        /*background: rgb(255, 238, 0);*/
+    }
+        .inventoryMiddleSubColumnInput{
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            margin: 8px;
+            /*background: rgb(255, 0, 64);*/
+            justify-content: flex-end;
+            align-content: center;
+            align-items: center;
+        }
+        .inventoryMiddleSubColumnInvisible{
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            margin: 8px;
+            justify-content: flex-end;
+            align-content: center;
+            align-items: center;
+        }
+
+    .inventoryMiddleSubRow{
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        /*background: rgb(76, 0, 255);*/
+    }
+        .inventoryMiddleSubRowFila{
+            display: flex;
+            flex: 1;
+            flex-direction: row;
+            margin: 8px;
+            /*background: rgb(0, 195, 255);*/
+        }
+
+
+.inventoryBottom{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /*background: rgb(255, 0, 0);*/
+}
+
+.simpleInput{
+    border-radius: 16px;
+}
+
+.simpleSelect{
+    height: 20px;
+    width: 200px;
+    color: rgb(98, 0, 255);
+}
+
+.simpleButton{
+    color: rgb(98, 0, 255);
+    height:64px;
+    width: 64px;
+    border-radius: 64px;
+    justify-items: end;
+}
