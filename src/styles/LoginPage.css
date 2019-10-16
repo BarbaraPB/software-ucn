@@ -6,7 +6,6 @@
     background: #c6ffdd; 
     background: -webkit-linear-gradient(to right, #c6ffdd, #fbd786, #f7797d); 
     background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
-
 }
 
 .headerLogin {
@@ -91,7 +90,7 @@
 
 .pass input {
     font-family: 'Barlow Condensed', sans-serif;
-    font-sie:16px;
+    font-size:16px;
     width:200px;
     margin-top:8px;
     background-color:rgba(255,255,255,0.4);

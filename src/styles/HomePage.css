@@ -8,112 +8,159 @@
     background: linear-gradient(to right, #8360c3, #2ebf91); 
 }
 
-.headerHomeAdmi {
-    display:flex;
-    flex:1;
-    flex-direction:column;
-    padding:16px;
-}
-
-.headerHomeAdmi h1 {
-    justify-content:flex-end;
-    margin:0;
-    color:#ff00c8;
-    font-family: 'Mansalva', cursive;
-}
-
-.headerHomeAdmi h3 {
-    justify-content:flex-start;
-    margin:0;
-}
-
 .menuAdm {
-    flex:6;
+    flex:3;
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     background-color:aqua;
 }
 
-.optionsHomeAdmi {
-    flex:1;
+.a1 {
+    margin:auto;
+}
+
+ul,ol {
+    list-style:none;
+}
+
+.opAdmi li a {
+    display:block;
+    background-color: rgb(233, 16, 160);
+    color:white;
+    text-decoration: none;
+    font-size:16px;
+    border-radius:8px;
+    padding:8px;
+    border:none;
+    width:140px;
+    text-align: center;
+}
+
+.opAdmi li a:hover {
+    background-color:rgb(177, 0, 0);
+}
+
+.opAdmi >li {
+    float:left;
+}
+
+.opAdmi li ul {
+    display:none;
+    position: absolute;
+    min-width:140px;
+}
+
+.opAdmi li:hover >ul {
+    display:block;
+}
+
+.opAdmi li ul li {
+    position:relative;
+}
+
+.opAdmi li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+
+
+.headerHomeAdmi {
     display:flex;
+    flex:1;
+    flex-direction:row;
+    background-color: yellow;
+}
+
+.logoMenuAdmi {
+    display:flex;
+    flex:2;
     flex-direction:column;
-    width:300px;
-    background-color:yellow;
+    background-color: grey;
+}
+.logoMenuAdmi img {
+    height:60px;
+    width:60px;
+    padding:24px;
+}
+
+.optionsMenuAdmi {
+    flex:6;
+    display:flex;
+    flex-direction:row;
+    background-color:rgb(140, 0, 255);
 }
 
 .addUser {
-    flex:1;
+    flex:2;
     display:flex;
     flex-direction:column;
-    justify-content:flex-start;
-    align-items:left;
-    background-color:red;
-    margin:8px;
+    justify-content:center;
+    align-items:center;
 }
 
-.addUser input{
+.addUser button{
     font-size:16px;
     border-radius:8px;
-    background-color:black;
     padding:8px;
     border:none;
+    width:160px;
+    text-align: center;
 }
 
 .listUsers {
-    flex:1;
+    flex:2;
     display:flex;
-    flex-direction:center;
+    flex-direction:column;
     justify-content:center;
-    align-items:flex-start;
-    background-color:pink;
+    align-items:center;
 }
 
-.listUsers input{
+.listUsers button{
     font-size:16px;
     border-radius:8px;
-    background-color:black;
     padding:8px;
     border:none;
+    width:160px;
+    text-align: center;
 }
 
 .reports {
-    flex:1;
+    flex:2;
     display:flex;
-    flex-direction:center;
+    flex-direction:column;
     justify-content:center;
-    align-items:flex-start;
+    align-items:center;
 }
 
-.reports input{
+.reports button{
     font-size:16px;
     border-radius:8px;
-    background-color:black;
     padding:8px;
     border:none;
+    width:160px;
+    text-align: center;
+}
+
+.perfilMenuAdmi {
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    background-color: pink;
 }
 
 .windows {
-    flex:4;
+    flex:10;
     display:flex;
     flex-direction:column;
+    background-color: aqua;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.pieMenuAdmi {
+    flex:1;
+    display: flex;
+    flex-direction: row;
+}
 
 
 
@@ -135,12 +182,3 @@
     display:flex;
     flex:1;
 }imagen de fondo (literalmente fondo)*/
-
-
-
-
-
-
-
-
-

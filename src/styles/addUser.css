@@ -1,0 +1,56 @@
+.perfilNewUser{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.fotoPerfil {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.foto {
+    flex:4;
+    display: flex;
+    flex-direction: column;
+}
+
+.rut {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.datosPerfil {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+}
+
+.datos1Perfil {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.datos2Perfil {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonAddUser {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
