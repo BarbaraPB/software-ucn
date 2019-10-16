@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import '../styles/HomePage.css'
 import logo from '../img/sfLogo.png'
+import addUser from './addUser'
 
 export default class HomePage extends Component {
 
@@ -13,15 +14,28 @@ export default class HomePage extends Component {
     
     render() {
         return (
-            <div className='menuAdmi'>
+            <div className='home'>
                 <div className='headerHomeAdmi'>
                     <div className='logoMenuAdmi'>
                         <img src={logo}/>
+                        <i class="fab fa-airbnb"></i>
                     </div>
                     
                     <div className='optionsMenuAdmi'>
-                        <div className='addUser'>
-                            <button>Agregar usuario</button>
+                        <div className='a1'>
+                            <ul className='opAdmi'>
+                                <li><a href='addUser'>nuevo usuario</a>
+                                    <ul>
+                                        <li><a href='holaa'>1</a>
+                                            <ul>
+                                                <li><a href='xdddd'>2</a>
+
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
                         
                         <div className='listUsers'>
@@ -39,12 +53,8 @@ export default class HomePage extends Component {
 
                 </div>
 
-                <div className='windowAdmi'>
-                    <h6>agregar ventana</h6>
-                </div>
-
-                <div className='pieMenuAdmi'>
-                    <h7>aaaaaaaaaaa</h7>
+                <div className='windowAdmi' style={{flex:4}}>
+                    <addUser/>
                 </div>
 
             </div>

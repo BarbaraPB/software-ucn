@@ -15,6 +15,56 @@
     background-color:aqua;
 }
 
+.a1 {
+    margin:auto;
+}
+
+ul,ol {
+    list-style:none;
+}
+
+.opAdmi li a {
+    display:block;
+    background-color: rgb(233, 16, 160);
+    color:white;
+    text-decoration: none;
+    font-size:16px;
+    border-radius:8px;
+    padding:8px;
+    border:none;
+    width:140px;
+    text-align: center;
+}
+
+.opAdmi li a:hover {
+    background-color:rgb(177, 0, 0);
+}
+
+.opAdmi >li {
+    float:left;
+}
+
+.opAdmi li ul {
+    display:none;
+    position: absolute;
+    min-width:140px;
+}
+
+.opAdmi li:hover >ul {
+    display:block;
+}
+
+.opAdmi li ul li {
+    position:relative;
+}
+
+.opAdmi li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+
+
 .headerHomeAdmi {
     display:flex;
     flex:1;
@@ -126,34 +176,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*img{
     height: 80vh;
     color: white;
     display:flex;
     flex:1;
 }imagen de fondo (literalmente fondo)*/
-
-
-
-
-
-
-
-
-
