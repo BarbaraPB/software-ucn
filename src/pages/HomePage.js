@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../styles/HomePage.css'
 import logo from '../img/sfLogo.png'
-import addUser from './addUser'
+import addUser from './AddUser'
 
 export default class HomePage extends Component {
 
@@ -18,7 +18,6 @@ export default class HomePage extends Component {
                 <div className='headerHomeAdmi'>
                     <div className='logoMenuAdmi'>
                         <img src={logo}/>
-                        <i class="fab fa-airbnb"></i>
                     </div>
                     
                     <div className='optionsMenuAdmi'>
@@ -28,7 +27,7 @@ export default class HomePage extends Component {
                                     <ul>
                                         <li><a href='holaa'>1</a>
                                             <ul>
-                                                <li><a href='xdddd'>2</a>
+                                                <li><a href='xdddd'></a>
 
                                                 </li>
                                             </ul>

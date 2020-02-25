@@ -1,19 +1,26 @@
-.login {
+.login-container {
     display: flex;
     flex: 1;
-    flex-direction: column;
+    flex-direction: row;
     height: 100vh;
-    background: #c6ffdd; 
-    background: -webkit-linear-gradient(to right, #c6ffdd, #fbd786, #f7797d); 
-    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    width: 100vw;
+}
+
+.login-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-right {
+    display: flex;
+    flex-direction: column;
+    background-color: #E02F3B;
 }
 
 .headerLogin {
-    flex:1;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+    background-color:black;
+    justify-content: center;
+    align-items: center;
 }
 
 .headerLogin img {
@@ -24,9 +31,10 @@
 
 .formContainer{
     display:flex;
-    flex:3;
     flex-direction:column;
+    flex:3;
     align-items:center;
+    justify-content: center;
 }
 
 .formContainer form {

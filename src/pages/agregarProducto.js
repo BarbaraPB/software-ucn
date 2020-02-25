@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../styles/agregarProducto.css'
 
-export default class agregarProducto extends Component {
+export default class AgregarProducto extends Component {
 
     constructor(props){
         super(props)
