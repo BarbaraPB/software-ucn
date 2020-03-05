@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../styles/LoginPage.css'
-import logo from '../img/sfLogo.png'
+import logo from '../img/logoSF.png'
 import feria from '../img/feria.png'
 import {Link} from 'react-router-dom'
 
@@ -38,7 +38,7 @@ export default class LoginPage extends Component {
                                 <h1>LOGIN</h1>{/*comentario*/}
                             </div>
                             <div className='rut'>
-                                <h4>Rut o Pasaporte</h4>
+                                <h4>Rut</h4>
                                 <input 
                                     type='text' 
                                     placeholder='12.345.678-9' 

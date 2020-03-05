@@ -8,17 +8,24 @@
 
 .login-left {
     display: flex;
+    flex:1;
     flex-direction: column;
+}
+
+.login-left img{
+    height: 100vh;
 }
 
 .login-right {
     display: flex;
+    flex:1;
     flex-direction: column;
     background-color: #E02F3B;
 }
 
 .headerLogin {
-    background-color:black;
+    display: flex;
+    background-color:#E02F3B;
     justify-content: center;
     align-items: center;
 }
@@ -58,7 +65,7 @@
     font-family: 'Amatic SC', cursive;
     font-weight:700;
     font-size:64px;
-    color:black;
+    color:white ;
 }
 
 .rut {
@@ -71,7 +78,7 @@
 .rut h4 {
     font-weight:500;
     margin:0;
-    color:black;
+    color:white;
 }
 
 .rut input{
@@ -88,7 +95,7 @@
     flex:2;
     display:flex;
     flex-direction:column;
-    color:black;
+    color:white;
 }
 
 .pass h4 {
@@ -117,7 +124,7 @@
 }
 
 .buttonRecoverPass {
-    color:black ;
+    color: white ;
     border-style:none;
     border-width:0;
     padding:8px;
@@ -126,9 +133,10 @@
 }
 
 .buttonLogin {
+    color: white;
     font-size:16px;
     border-radius:8px;
-    background-color:#fff79c;
+    background-color:rgb(228, 74, 84);
     padding:8px;
     border:none;
 }
@@ -140,6 +148,6 @@
     justify-content:flex-end;
     padding-bottom:8px;
     align-items:center;
-    color:black;
+    color:white;
     font-size:13px;
 }

@@ -1,3 +1,12 @@
+.buttonsSesion {
+    flex:1;
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+    justify-content:space-between;
+    width:300px;
+}
+
 .perfilNewUser{
     flex: 1;
     display: flex;

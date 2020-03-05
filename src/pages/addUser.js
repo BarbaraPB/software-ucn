@@ -64,7 +64,7 @@ export default class AddUser extends Component {
                                 />
                             </div>
                             <div className='buttonAddUser'>
-                                <button>ADD USER</button>
+                                <button className='aaa'>ADD USER</button>
                             </div>
                         </div>
                     </div>
